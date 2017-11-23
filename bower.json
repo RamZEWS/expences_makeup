@@ -1,0 +1,22 @@
+{
+    "name": "expences_markup",
+    "description": "",
+    "main": "index.php",
+    "authors": [
+        "ramzes.2007.90@gmail.com <ramzes.2007.90@gmail.com>"
+    ],
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "2.*",
+        "materialize": "*",
+        "components-font-awesome": "^4.7.0"
+    }
+}
