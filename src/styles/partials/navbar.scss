@@ -1,0 +1,26 @@
+.header {
+    > .row {
+        margin-bottom: 0;
+        .sidebar-button {
+            text-decoration: none;
+            color: #333;
+        }
+        .logo {
+            img {
+                max-width: 50px;
+                margin:0 auto;
+            }
+        }
+        .user-menu {
+            .dropdown-button {
+                img {
+                    max-width: 50px;
+                    margin:0 auto;
+                }
+            }
+            #user-menu-dropdown {
+                width: 50%;
+            }
+        }
+    }
+}
