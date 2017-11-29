@@ -17,12 +17,14 @@ foreach($pagepart as $val){
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    //= ../modules/navbar.php
-    //= ../modules/sidebar.php
-    <!-- Page Layout here -->
-    <div class="row">
-        <div class="col s12 m12 l12">
-            //= ../modules/content.php
+    <header>            
+        //= ../modules/navbar.php
+        //= ../modules/sidebar.php
+    </header>
+    <main>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                //= ../modules/content.php
+            </div>
         </div>
-
-    </div>
+    </main>    
